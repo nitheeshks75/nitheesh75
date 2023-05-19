@@ -1,0 +1,34 @@
+
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>movies</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+
+</head>
+
+
+<center><h2 style="color:blue;"><b>MY MOVIE COLLECTION</b></h2></center>
+<body>
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand">
+      <h2 style="color:red"> MY MOVIE STORE</h2></a>
+
+  <form class="form-inline">
+
+  </form>
+<!-- <a href="add/{{i.id}}" style="color:red; align-right;" > </a>-->
+</nav>
+{% block body %}
+
+
+{% endblock %}
+</body>
+</html>
